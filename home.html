@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- ============== Sidbar ========= -->
+        <div class="sidebar">
+            <!-- ================ Logo ========= -->
+            <div class="logo">
+                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 12.0833C17.1694 12.0833 19.3334 9.91934 19.3334 7.24996C19.3334 4.58058 17.1694 2.41663 14.5 2.41663C11.8306 2.41663 9.66669 4.58058 9.66669 7.24996C9.66669 9.91934 11.8306 12.0833 14.5 12.0833Z" fill="#463FF1"/>
+                    <path d="M24.1666 21.1459C24.1666 24.1486 24.1666 26.5834 14.5 26.5834C4.83331 26.5834 4.83331 24.1486 4.83331 21.1459C4.83331 18.1432 9.16156 15.7084 14.5 15.7084C19.8384 15.7084 24.1666 18.1432 24.1666 21.1459Z" fill="#463FF1"/>
+                </svg>
+                <h1>My Phonebook</h1>
+            </div>
+            <!-- =============== Add contat button=========== -->
+             <div class="addContact">
+                <div class="plus">
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.0353 8.40839H8.06183V14.4209H6.07066V8.40839H0.097168V6.40422H6.07066V0.391724H8.06183V6.40422H14.0353V8.40839Z" fill="white"/>
+                    </svg>
+                </div>
+                <div>
+                    <p>Create New</p>
+                    <p class="bold">Contact</p>
+                </div>       
+             </div>
+             <!-- ===============Contacts button=========== -->
+             <div class="contact_btn">
+                <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.5 12.0833C17.1694 12.0833 19.3334 9.91934 19.3334 7.24996C19.3334 4.58058 17.1694 2.41663 14.5 2.41663C11.8306 2.41663 9.66669 4.58058 9.66669 7.24996C9.66669 9.91934 11.8306 12.0833 14.5 12.0833Z" fill="#463FF1"/>
+                    <path d="M24.1666 21.1459C24.1666 24.1486 24.1666 26.5834 14.5 26.5834C4.83331 26.5834 4.83331 24.1486 4.83331 21.1459C4.83331 18.1432 9.16156 15.7084 14.5 15.7084C19.8384 15.7084 24.1666 18.1432 24.1666 21.1459Z" fill="#463FF1"/>
+                </svg>
+                <p>Contacts</p>
+                    
+             </div>
+        </div>
+        <div class="main">
+            <!-- ================search and sort feature============ -->
+            <div class="main_header">
+                    <h1>Contacts</h1>
+
+                    <div class="sort">
+                    <input type="text" name="search" placeholder="Search...">
+                    <select name="sort" id="sort">
+                        <option value="a-z">Sort by:A-Z</option>
+                        <option value="z-a">Sort by:Z-A</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main_content">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>Nsem Confident</td>
+                        <td>+237678725574</td>
+                        <td>njocknsem@gmail.com</td>
+                        <td><a href="#">Edit</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
